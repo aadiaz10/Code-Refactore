@@ -1,0 +1,125 @@
+/* Universal styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body styles */
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Header styles */
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header nav ul li {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Layout styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Content styles */
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Service section styles */
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.service img {
+    max-height: 200px;
+    margin-right: 25px;
+}
+
+.service:nth-of-type(odd) img {
+    float: left;
+    margin-right: 25px;
+}
+
+.service:nth-of-type(even) img {
+    float: right;
+    margin-left: 25px;
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benefits section styles */
+.benefits {
+    width: 20%;
+    background-color: #2589bd;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer styles */
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
+}
